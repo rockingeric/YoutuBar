@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA13C4C81916D5040010FECF /* AppIcon128.png in Resources */ = {isa = PBXBuildFile; fileRef = FA13C4C71916D5040010FECF /* AppIcon128.png */; };
 		FA1F7DC81916898F00319EF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1F7DC71916898F00319EF4 /* Cocoa.framework */; };
 		FA1F7DD21916898F00319EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7DD01916898F00319EF4 /* InfoPlist.strings */; };
 		FA1F7DD41916898F00319EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1F7DD31916898F00319EF4 /* main.m */; };
@@ -22,6 +23,9 @@
 		FA1F7E2A1916C38C00319EF4 /* JFHotkeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1F7E281916C38C00319EF4 /* JFHotkeyManager.m */; };
 		FA1F7E2D1916CA3D00319EF4 /* alternate_image.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7E2B1916CA3D00319EF4 /* alternate_image.png */; };
 		FA1F7E2E1916CA3D00319EF4 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7E2C1916CA3D00319EF4 /* image.png */; };
+		FA1F7E301916CDF100319EF4 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7E2F1916CDF100319EF4 /* AppIcon.png */; };
+		FA8F8B981916D0630047CEBE /* AppIcon16.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8F8B961916D0630047CEBE /* AppIcon16.png */; };
+		FA8F8B991916D0630047CEBE /* AppIcon32.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8F8B971916D0630047CEBE /* AppIcon32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA13C4C71916D5040010FECF /* AppIcon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon128.png; path = images/AppIcon128.png; sourceTree = SOURCE_ROOT; };
 		FA1F7DC41916898F00319EF4 /* YoutuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1F7DC71916898F00319EF4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FA1F7DCA1916898F00319EF4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -59,6 +64,9 @@
 		FA1F7E281916C38C00319EF4 /* JFHotkeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFHotkeyManager.m; sourceTree = "<group>"; };
 		FA1F7E2B1916CA3D00319EF4 /* alternate_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alternate_image.png; path = images/alternate_image.png; sourceTree = SOURCE_ROOT; };
 		FA1F7E2C1916CA3D00319EF4 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = images/image.png; sourceTree = SOURCE_ROOT; };
+		FA1F7E2F1916CDF100319EF4 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = images/AppIcon.png; sourceTree = SOURCE_ROOT; };
+		FA8F8B961916D0630047CEBE /* AppIcon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon16.png; path = ../images/AppIcon16.png; sourceTree = "<group>"; };
+		FA8F8B971916D0630047CEBE /* AppIcon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon32.png; path = ../images/AppIcon32.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +144,11 @@
 		FA1F7DCE1916898F00319EF4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA13C4C71916D5040010FECF /* AppIcon128.png */,
+				FA1F7E2F1916CDF100319EF4 /* AppIcon.png */,
+				FA8F8B961916D0630047CEBE /* AppIcon16.png */,
 				FA1F7E2B1916CA3D00319EF4 /* alternate_image.png */,
+				FA8F8B971916D0630047CEBE /* AppIcon32.png */,
 				FA1F7E2C1916CA3D00319EF4 /* image.png */,
 				FA1F7E251916C38C00319EF4 /* JFHotkey */,
 				FA1F7DCF1916898F00319EF4 /* YoutuBar-Info.plist */,
@@ -253,10 +265,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1F7E301916CDF100319EF4 /* AppIcon.png in Resources */,
+				FA8F8B991916D0630047CEBE /* AppIcon32.png in Resources */,
 				FA1F7DD21916898F00319EF4 /* InfoPlist.strings in Resources */,
 				FA1F7E291916C38C00319EF4 /* .gitignore in Resources */,
+				FA13C4C81916D5040010FECF /* AppIcon128.png in Resources */,
 				FA1F7E2D1916CA3D00319EF4 /* alternate_image.png in Resources */,
 				FA1F7DE01916899000319EF4 /* Images.xcassets in Resources */,
+				FA8F8B981916D0630047CEBE /* AppIcon16.png in Resources */,
 				FA1F7E2E1916CA3D00319EF4 /* image.png in Resources */,
 				FA1F7DD81916898F00319EF4 /* Credits.rtf in Resources */,
 				FA1F7DDE1916899000319EF4 /* MainMenu.xib in Resources */,
@@ -493,6 +509,7 @@
 				FA1F7DF71916899000319EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA1F7DF81916899000319EF4 /* Build configuration list for PBXNativeTarget "YoutuBarTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +518,7 @@
 				FA1F7DFA1916899000319EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -20,6 +20,8 @@
 		FA1F7DF21916899000319EF4 /* YoutuBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1F7DF11916899000319EF4 /* YoutuBarTests.m */; };
 		FA1F7E291916C38C00319EF4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7E261916C38C00319EF4 /* .gitignore */; };
 		FA1F7E2A1916C38C00319EF4 /* JFHotkeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1F7E281916C38C00319EF4 /* JFHotkeyManager.m */; };
+		FA1F7E2D1916CA3D00319EF4 /* alternate_image.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7E2B1916CA3D00319EF4 /* alternate_image.png */; };
+		FA1F7E2E1916CA3D00319EF4 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7E2C1916CA3D00319EF4 /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		FA1F7E261916C38C00319EF4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		FA1F7E271916C38C00319EF4 /* JFHotkeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFHotkeyManager.h; sourceTree = "<group>"; };
 		FA1F7E281916C38C00319EF4 /* JFHotkeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFHotkeyManager.m; sourceTree = "<group>"; };
+		FA1F7E2B1916CA3D00319EF4 /* alternate_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alternate_image.png; path = images/alternate_image.png; sourceTree = SOURCE_ROOT; };
+		FA1F7E2C1916CA3D00319EF4 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = images/image.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 		FA1F7DCE1916898F00319EF4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA1F7E2B1916CA3D00319EF4 /* alternate_image.png */,
+				FA1F7E2C1916CA3D00319EF4 /* image.png */,
 				FA1F7E251916C38C00319EF4 /* JFHotkey */,
 				FA1F7DCF1916898F00319EF4 /* YoutuBar-Info.plist */,
 				FA1F7DD01916898F00319EF4 /* InfoPlist.strings */,
@@ -249,7 +255,9 @@
 			files = (
 				FA1F7DD21916898F00319EF4 /* InfoPlist.strings in Resources */,
 				FA1F7E291916C38C00319EF4 /* .gitignore in Resources */,
+				FA1F7E2D1916CA3D00319EF4 /* alternate_image.png in Resources */,
 				FA1F7DE01916899000319EF4 /* Images.xcassets in Resources */,
+				FA1F7E2E1916CA3D00319EF4 /* image.png in Resources */,
 				FA1F7DD81916898F00319EF4 /* Credits.rtf in Resources */,
 				FA1F7DDE1916899000319EF4 /* MainMenu.xib in Resources */,
 			);

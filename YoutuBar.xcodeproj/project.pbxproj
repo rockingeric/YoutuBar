@@ -18,8 +18,6 @@
 		FA1F7DE81916899000319EF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1F7DC71916898F00319EF4 /* Cocoa.framework */; };
 		FA1F7DF01916899000319EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7DEE1916899000319EF4 /* InfoPlist.strings */; };
 		FA1F7DF21916899000319EF4 /* YoutuBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1F7DF11916899000319EF4 /* YoutuBarTests.m */; };
-		FA1F7E011916BC2A00319EF4 /* alternate_image.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7DFF1916BC2A00319EF4 /* alternate_image.png */; };
-		FA1F7E021916BC2A00319EF4 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7E001916BC2A00319EF4 /* image.png */; };
 		FA1F7E291916C38C00319EF4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7E261916C38C00319EF4 /* .gitignore */; };
 		FA1F7E2A1916C38C00319EF4 /* JFHotkeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1F7E281916C38C00319EF4 /* JFHotkeyManager.m */; };
 /* End PBXBuildFile section */
@@ -54,8 +52,6 @@
 		FA1F7DED1916899000319EF4 /* YoutuBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YoutuBarTests-Info.plist"; sourceTree = "<group>"; };
 		FA1F7DEF1916899000319EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA1F7DF11916899000319EF4 /* YoutuBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoutuBarTests.m; sourceTree = "<group>"; };
-		FA1F7DFF1916BC2A00319EF4 /* alternate_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alternate_image.png; path = yt/alternate_image.png; sourceTree = SOURCE_ROOT; };
-		FA1F7E001916BC2A00319EF4 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = yt/image.png; sourceTree = SOURCE_ROOT; };
 		FA1F7E261916C38C00319EF4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		FA1F7E271916C38C00319EF4 /* JFHotkeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFHotkeyManager.h; sourceTree = "<group>"; };
 		FA1F7E281916C38C00319EF4 /* JFHotkeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFHotkeyManager.m; sourceTree = "<group>"; };
@@ -137,8 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				FA1F7E251916C38C00319EF4 /* JFHotkey */,
-				FA1F7DFF1916BC2A00319EF4 /* alternate_image.png */,
-				FA1F7E001916BC2A00319EF4 /* image.png */,
 				FA1F7DCF1916898F00319EF4 /* YoutuBar-Info.plist */,
 				FA1F7DD01916898F00319EF4 /* InfoPlist.strings */,
 				FA1F7DD31916898F00319EF4 /* main.m */,
@@ -255,11 +249,9 @@
 			files = (
 				FA1F7DD21916898F00319EF4 /* InfoPlist.strings in Resources */,
 				FA1F7E291916C38C00319EF4 /* .gitignore in Resources */,
-				FA1F7E011916BC2A00319EF4 /* alternate_image.png in Resources */,
 				FA1F7DE01916899000319EF4 /* Images.xcassets in Resources */,
 				FA1F7DD81916898F00319EF4 /* Credits.rtf in Resources */,
 				FA1F7DDE1916899000319EF4 /* MainMenu.xib in Resources */,
-				FA1F7E021916BC2A00319EF4 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

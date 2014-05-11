@@ -667,17 +667,17 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="YoutuBar" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="QvC-M9-y7g">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+        <window title="YoutuBar" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" appearanceType="lightContent" animationBehavior="default" id="QvC-M9-y7g" customClass="NSEWindow">
+            <windowStyleMask key="styleMask" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="700" y="700" width="480" height="78"/>
+            <rect key="contentRect" x="744" y="715" width="480" height="63"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1280" height="778"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="78"/>
+                <rect key="frame" x="0.0" y="0.0" width="480" height="63"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <searchField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="43k-zB-Vka">
-                        <rect key="frame" x="20" y="48" width="440" height="22"/>
+                        <rect key="frame" x="20" y="35" width="440" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" placeholderString="" usesSingleLineMode="YES" bezelStyle="round" sendsWholeSearchString="YES" id="U5J-KU-HXZ">
                             <font key="font" metaFont="system"/>
@@ -689,7 +689,7 @@
                         </searchFieldCell>
                     </searchField>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wSd-7U-wIf">
-                        <rect key="frame" x="20" y="9" width="440" height="25"/>
+                        <rect key="frame" x="20" y="5" width="440" height="25"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="roundTextured" title="Quit" bezelStyle="texturedRounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gYN-oD-c5B">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>

@@ -32,6 +32,7 @@
         NSString *url = @"http://www.youtube.com/results?q=";
         url = [url stringByAppendingString:[searchField stringValue]];
         url = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+        [window close];
         [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:url]];
     }
 }
@@ -42,7 +43,6 @@
     [window makeKeyAndOrderFront:nil];
     [searchField selectText:self];
     [[searchField currentEditor] setSelectedRange:NSMakeRange([[searchField stringValue] length], 0)];
-    
 }
 
 -(IBAction)quit:(id)sender{

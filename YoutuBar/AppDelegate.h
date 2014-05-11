@@ -7,12 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "NSEWindow.h"
+
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
     NSStatusItem *statusItem;
     IBOutlet NSSearchField *searchField;
 }
 
-@property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSEWindow *window;
 
 @end

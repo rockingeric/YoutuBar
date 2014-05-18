@@ -45,9 +45,4 @@
     [[searchField currentEditor] setSelectedRange:NSMakeRange([[searchField stringValue] length], 0)];
 }
 
--(IBAction)quit:(id)sender{
-    [NSApp terminate:nil];
-}
-
-
 @end

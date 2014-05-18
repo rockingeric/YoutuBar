@@ -21,12 +21,12 @@
 		FA1F7DF21916899000319EF4 /* YoutuBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1F7DF11916899000319EF4 /* YoutuBarTests.m */; };
 		FA1F7E291916C38C00319EF4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7E261916C38C00319EF4 /* .gitignore */; };
 		FA1F7E2A1916C38C00319EF4 /* JFHotkeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1F7E281916C38C00319EF4 /* JFHotkeyManager.m */; };
-		FA1F7E2D1916CA3D00319EF4 /* alternate_image.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7E2B1916CA3D00319EF4 /* alternate_image.png */; };
-		FA1F7E2E1916CA3D00319EF4 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7E2C1916CA3D00319EF4 /* image.png */; };
 		FA1F7E301916CDF100319EF4 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1F7E2F1916CDF100319EF4 /* AppIcon.png */; };
 		FA8F8B981916D0630047CEBE /* AppIcon16.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8F8B961916D0630047CEBE /* AppIcon16.png */; };
 		FA8F8B991916D0630047CEBE /* AppIcon32.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8F8B971916D0630047CEBE /* AppIcon32.png */; };
 		FA99BF6E192030FF00162383 /* NSEWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FA99BF6D192030FF00162383 /* NSEWindow.m */; };
+		FAAF1114192973CC0032D6AE /* alternate_image.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAF1112192973CC0032D6AE /* alternate_image.png */; };
+		FAAF1115192973CC0032D6AE /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAF1113192973CC0032D6AE /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,13 +63,13 @@
 		FA1F7E261916C38C00319EF4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		FA1F7E271916C38C00319EF4 /* JFHotkeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFHotkeyManager.h; sourceTree = "<group>"; };
 		FA1F7E281916C38C00319EF4 /* JFHotkeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFHotkeyManager.m; sourceTree = "<group>"; };
-		FA1F7E2B1916CA3D00319EF4 /* alternate_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alternate_image.png; path = images/alternate_image.png; sourceTree = SOURCE_ROOT; };
-		FA1F7E2C1916CA3D00319EF4 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = images/image.png; sourceTree = SOURCE_ROOT; };
 		FA1F7E2F1916CDF100319EF4 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = images/AppIcon.png; sourceTree = SOURCE_ROOT; };
 		FA8F8B961916D0630047CEBE /* AppIcon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon16.png; path = ../images/AppIcon16.png; sourceTree = "<group>"; };
 		FA8F8B971916D0630047CEBE /* AppIcon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon32.png; path = ../images/AppIcon32.png; sourceTree = "<group>"; };
 		FA99BF6C192030FF00162383 /* NSEWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSEWindow.h; sourceTree = "<group>"; };
 		FA99BF6D192030FF00162383 /* NSEWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSEWindow.m; sourceTree = "<group>"; };
+		FAAF1112192973CC0032D6AE /* alternate_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alternate_image.png; path = images/alternate_image.png; sourceTree = SOURCE_ROOT; };
+		FAAF1113192973CC0032D6AE /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = images/image.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,12 +149,12 @@
 		FA1F7DCE1916898F00319EF4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FAAF1112192973CC0032D6AE /* alternate_image.png */,
+				FAAF1113192973CC0032D6AE /* image.png */,
 				FA13C4C71916D5040010FECF /* AppIcon128.png */,
 				FA1F7E2F1916CDF100319EF4 /* AppIcon.png */,
 				FA8F8B961916D0630047CEBE /* AppIcon16.png */,
-				FA1F7E2B1916CA3D00319EF4 /* alternate_image.png */,
 				FA8F8B971916D0630047CEBE /* AppIcon32.png */,
-				FA1F7E2C1916CA3D00319EF4 /* image.png */,
 				FA1F7E251916C38C00319EF4 /* JFHotkey */,
 				FA1F7DCF1916898F00319EF4 /* YoutuBar-Info.plist */,
 				FA1F7DD01916898F00319EF4 /* InfoPlist.strings */,
@@ -271,14 +271,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1F7E301916CDF100319EF4 /* AppIcon.png in Resources */,
+				FAAF1115192973CC0032D6AE /* image.png in Resources */,
 				FA8F8B991916D0630047CEBE /* AppIcon32.png in Resources */,
 				FA1F7DD21916898F00319EF4 /* InfoPlist.strings in Resources */,
 				FA1F7E291916C38C00319EF4 /* .gitignore in Resources */,
 				FA13C4C81916D5040010FECF /* AppIcon128.png in Resources */,
-				FA1F7E2D1916CA3D00319EF4 /* alternate_image.png in Resources */,
 				FA1F7DE01916899000319EF4 /* Images.xcassets in Resources */,
+				FAAF1114192973CC0032D6AE /* alternate_image.png in Resources */,
 				FA8F8B981916D0630047CEBE /* AppIcon16.png in Resources */,
-				FA1F7E2E1916CA3D00319EF4 /* image.png in Resources */,
 				FA1F7DD81916898F00319EF4 /* Credits.rtf in Resources */,
 				FA1F7DDE1916899000319EF4 /* MainMenu.xib in Resources */,
 			);
